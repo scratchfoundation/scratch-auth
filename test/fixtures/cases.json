@@ -1,0 +1,27 @@
+{
+    "valid": {
+        "salt": "test",
+        "secret": "secret",
+        "signed": "value:zyBNJHpGyml3X-RhCx0mbjLFzPs",
+        "unsigned": "value"
+    },
+    "invalidSalt": {
+        "salt": "hax0r",
+        "secret": "secret",
+        "signed": "value:zyBNJHpGyml3X-RhCx0mbjLFzPs"
+    },
+    "invalidSecret": {
+        "salt": "test",
+        "secret": "hax0r",
+        "signed": "value:zyBNJHpGyml3X-RhCx0mbjLFzPs"
+    },
+    "invalidToken": {
+        "salt": "test",
+        "secret": "secret",
+        "signed": "zyBNJHpGyml3X-RhCx0mbjLFzPs"
+    },
+    "missingToken": {
+        "salt": "test",
+        "secret": "secret"
+    }
+}

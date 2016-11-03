@@ -1,0 +1,10 @@
+# MacOS
+.DS_Store
+
+# NPM
+/node_modules
+npm-*
+
+# Code coverage
+/coverage
+/.nyc_output

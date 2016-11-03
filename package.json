@@ -1,7 +1,7 @@
 {
   "name": "scratch-auth",
   "version": "1.0.0",
-  "description": "",
+  "description": "Authentication utilities for Scratch",
   "author": "Massachusetts Institute of Technology",
   "license": "BSD-3-Clause",
   "homepage": "https://github.com/LLK/scratch-auth#readme",
@@ -16,13 +16,13 @@
     "tap": "tap test/{unit,integration}/*.js",
     "coverage": "tap test/{unit,integration}/*.js --coverage --coverage-report=lcov"
   },
+  "dependencies": {
+    "pako": "1.0.3"
+  },
   "devDependencies": {
     "babel-eslint": "7.1.0",
     "eslint": "3.9.1",
     "eslint-config-scratch": "2.0.3",
     "tap": "8.0.0"
-  },
-  "dependencies": {
-    "pako": "1.0.3"
   }
 }

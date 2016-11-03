@@ -1,6 +1,11 @@
 ## scratch-auth
 #### Authentication utilities for Scratch
 
+[![Build Status](https://travis-ci.org/LLK/scratch-auth.svg?branch=develop)](https://travis-ci.org/LLK/scratch-auth)
+[![Coverage Status](https://coveralls.io/repos/github/LLK/scratch-auth/badge.svg?branch=develop)](https://coveralls.io/github/LLK/scratch-auth?branch=develop)
+[![dependencies Status](https://david-dm.org/LLK/scratch-auth/status.svg)](https://david-dm.org/LLK/scratch-auth)
+[![devDependencies Status](https://david-dm.org/LLK/scratch-auth/dev-status.svg)](https://david-dm.org/LLK/scratch-auth?type=dev)
+
 ## Installation
 ```bash
 npm install scratch-auth

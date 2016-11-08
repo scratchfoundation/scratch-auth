@@ -14,7 +14,7 @@ npm install scratch-auth
 ## Usage
 ```js
 const Auth = require('scratch-auth');
-const a = new Auth('salt', 'secret');
+const a = new Auth('test', 'secret');
 
 const unsigned = a.unsign('value:zyBNJHpGyml3X-RhCx0mbjLFzPs');
 const unpacked = a.unpack(unsigned);
